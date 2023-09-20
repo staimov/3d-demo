@@ -1,0 +1,122 @@
+{
+    "asset" : {
+        "generator" : "Visual Studio Code",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "deaerator_0"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Node_2"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Node_1"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Model_Space"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material_0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.7450980544090271,
+                    0.7372549176216125,
+                    0.729411780834198,
+                    1
+                ],
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "deaerator_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 12401,
+            "max" : [
+                2.6289329528808594,
+                3.7645444869995117,
+                4.687843322753906
+            ],
+            "min" : [
+                -2.172067165374756,
+                -3.670637845993042,
+                -7.533186912536621
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 12401,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 25164,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 148812,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 148812,
+            "byteOffset" : 148812
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 50328,
+            "byteOffset" : 297624
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 347952,
+            "uri" : "deaerator.bin"
+        }
+    ]
+}

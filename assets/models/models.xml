@@ -1,0 +1,26 @@
+<models>
+	<model name="Turbine1" description="Турбоагрегат №1" class="Turbine3D" filepath="assets/models/turbine/tg368.gltf">
+		<objects>
+			<object name="Конденсатор" meshname="Конденсатор">
+			</object>
+			<object name="Генератор" meshname="Генератор">
+			</object>
+			<object name="Турбина" meshname="Турбина">
+				<datapoints>
+				<datapoint name="System1:Plant1.TurbineDept.Turbine1.Speed" description="Скорость вращения ротора" engunits="об/мин"/>
+				<datapoint name="System1:Plant1.TurbineDept.Turbine1.Power" description="Мощность" engunits="МВт"/>
+				<datapoint name="System1:Plant1.TurbineDept.Turbine1.Base.Efficiency" description="КПД" engunits="%"/>	
+				</datapoints>
+			</object>						
+		</objects>
+	</model>
+	<model name="Helmet" description="Поврежденный шлем пилота" class="Helmet3D"/>		
+	<model name="Test" description="Тест 3d" class="Test3D">	
+		<objects>
+			<object name="Деаэратор" meshname="Деаэратор1"/>
+			<object name="ПВД" meshname="ПВД1"/>
+			<object name="ПНД" meshname="ПНД1"/>
+			<object name="Кубик" meshname="Кубик1"/>
+		</objects>
+	</model>	
+</models>

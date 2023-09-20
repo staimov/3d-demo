@@ -1,0 +1,125 @@
+{
+    "asset": {
+        "generator": "Visual Studio Code",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5125,
+            "count": 240936,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 64732,
+            "type": "VEC3",
+            "max": [
+                1.6912705898284913,
+                10.242500305175782,
+                1.6912705898284913
+            ],
+            "min": [
+                -1.6912705898284913,
+                -0.48524999618530276,
+                -1.6912705898284913
+            ]
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 64732,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 963744,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 963744,
+            "byteLength": 776784,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1740528,
+            "byteLength": 776784,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2517312,
+            "uri": "pvd.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.9843137264251709,
+                    0.9411764740943909,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name" : "pvd_0",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "children": [
+                1
+            ],
+            "name": "Model_Space"
+        },
+        {
+            "children": [
+                2
+            ]
+        },
+        {
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}

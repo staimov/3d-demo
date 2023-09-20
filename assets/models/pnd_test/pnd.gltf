@@ -1,0 +1,125 @@
+{
+    "asset": {
+        "generator": "Visual Studio Code",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5125,
+            "count": 18390,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 6180,
+            "type": "VEC3",
+            "max": [
+                1.4107500314712525,
+                3.550311326980591,
+                1.531499981880188
+            ],
+            "min": [
+                -1.4107500314712525,
+                -3.721250057220459,
+                -1.2595185041427613
+            ]
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 6180,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 73560,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 73560,
+            "byteLength": 74160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 147720,
+            "byteLength": 74160,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 221880,
+            "uri": "pnd.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.7450980544090271,
+                    0.7372549176216126,
+                    0.729411780834198,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name" : "pnd_0",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "children": [
+                1
+            ],
+            "name": "Model_Space"
+        },
+        {
+            "children": [
+                2
+            ]
+        },
+        {
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
