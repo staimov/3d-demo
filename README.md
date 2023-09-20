@@ -1,6 +1,6 @@
 [![My Skills](https://skillicons.dev/icons?i=html,js,threejs&theme=light)](https://skillicons.dev)
 # 3d-demo
-Three.js 3d demo with websocket client
+### Three.js 3d demo with websocket client
 
 Deploy files to Web-server.
 
