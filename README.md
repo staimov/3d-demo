@@ -14,4 +14,6 @@ http://localhost:8080/3d-demo/index.html?modelName=Turbine1
 
 http://localhost:8080/3d-demo/index.html?modelName=Helmet
 
+![screenshot](assets/images/helmet_screenshot.jpg?raw=true)
+
 
