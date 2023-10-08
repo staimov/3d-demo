@@ -4,7 +4,7 @@
 
 An example of displaying an interactive 3d model on a web page, as well as displaying additional numerical parameters obtained via the websocket protocol on top of the 3d model.
 
-Deploy files to Web-server.
+Deploy files to Web-server (Tomcat, for example).
 
 http://localhost:8080/3d-demo/index.html?modelName=Test
 
