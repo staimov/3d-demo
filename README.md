@@ -2,7 +2,7 @@
 # 3d-demo
 ### Three.js 3d demo with websocket client
 
-An example of displaying an interactive 3d model on a web page, as well as displaying changing numerical parameters obtained via the websocket protocol on top of the 3d model.
+An example of displaying an interactive 3d model on a web page, as well as displaying additional numerical parameters obtained via the websocket protocol on top of the 3d model.
 
 Deploy files to Web-server.
 
